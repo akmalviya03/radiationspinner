@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
 void main() {
-  runApp(MySpinner());
+  runApp(MyRadiationSpinner());
 }
 
-class MySpinner extends StatefulWidget {
+class MyRadiationSpinner extends StatefulWidget {
   @override
-  _MySpinnerState createState() => _MySpinnerState();
+  _MyRadiationSpinnerState createState() => _MyRadiationSpinnerState();
 }
 
-class _MySpinnerState extends State<MySpinner>
+class _MyRadiationSpinnerState extends State<MyRadiationSpinner>
     with SingleTickerProviderStateMixin {
   AnimationController _animationController;
   @override
